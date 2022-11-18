@@ -1,0 +1,17 @@
+.idea/
+*.pyc
+*.pth
+*.jpeg
+*/__pycache__/
+__pycache__/
+
+output/
+!output/.gitkeep
+
+result
+result*
+
+morphology/extensions/build/
+morphology/extensions/dist/
+morphology/extensions/morphpool_cuda.egg-info/*
+morphology/.pytest_cache/
