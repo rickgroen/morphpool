@@ -2,7 +2,7 @@
 This repository allows you to run our code on three datasets: NYU, SUN-RGBD and 2D3D-S.
 Here's how to download and setup the datasets on your system.
 
-Note that you have to change the value of **DATA_FOLDER** on line 2 in [config.py](../config.py) to the path to the folder you keep your datasets.
+Note that you have to change the value of **DATA_FOLDER** on line 2 in [config.py](../config.py) to the path to the directory you store your datasets.
 For me, my data lives in */home/data*, with folders for each separate dataset.
 
 There are a number of data preparation scripts in the [loaders/utils/](utils) folder.

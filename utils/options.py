@@ -19,7 +19,6 @@ def get_args():
     parser.add_argument('--lr', type=float, default=5e-3, help='Learning rate.')
     parser.add_argument('--num_threads', type=int, default=32, help='Number of data loading CPU threads.')
     parser.add_argument('--device', type=str, default='cuda:0', help='Which device to train on.')
-
     parser.add_argument('--use_depth', type=boolstr, default=True, help='Use depth as an input modality.')
     parser.add_argument('--dataset', type=str, default='nyu', help='which dataset to use from [nyu | sun | 2d3ds].')
     parser.add_argument('--pool_method', type=str, default='pool', help='Down-sampling method in [pool | param_pool | parabolic_pool | conv].')

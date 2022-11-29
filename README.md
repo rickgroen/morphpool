@@ -1,6 +1,7 @@
 # MorphPool: Efficient Non-linear Pooling & Unpooling in CNNs
 This is the repository for our BMVC 2022 paper titled **MorphPool: Efficient Non-linear Pooling & Unpooling in CNNs**. \
-**The paper link is coming soon.**
+[BMVC](https://bmvc2022.mpi-inf.mpg.de/56/) \
+[arXiv](https://arxiv.org/abs/2211.14037)
 
 
 ## Dependencies
@@ -39,7 +40,7 @@ python test.py --pool_method param_pool --pool_ks 3 --unpool_method param_morph_
 ## Datasets
 This repository allows you to run our code on three semantic segmentation datasets: NYU, SUN-RGBD and 2D3D-S.
 Check out [loaders](loaders/README.md) to download and setup the datasets for your system. \
-After you have done so, you can train a model on a specific using the --dataset argument for [ nyu | sun | 2d3ds ]. \
+After you have done so, you can train a model on a specific dataset using the --dataset argument for [ nyu | sun | 2d3ds ]. \
 For example
 ```commandline
 python train.py --dataset sun
@@ -54,5 +55,12 @@ Feel free to apply the (morphological) up and down-sampling in more complex arch
 ## Citation
 If this work was useful for your research, please consider citing:
 ```
-[Coming soon]
+@inproceedings{groenendijk2022morphpool,
+author    = {Rick Groenendijk and Leo Dorst and Theo Gevers},
+title     = {MorphPool: Efficient Non-linear Pooling & Unpooling in CNNs},
+booktitle = {33rd British Machine Vision Conference 2022, {BMVC} 2022, London, UK, November 21-24, 2022},
+publisher = {{BMVA} Press},
+year      = {2022},
+url       = {https://bmvc2022.mpi-inf.mpg.de/0056.pdf}
+}
 ```
